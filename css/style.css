@@ -46,7 +46,8 @@ html, body {
    color: white;
    font-size: 1.6rem;
 }
-.navbar.solid {
+.navbar.solid,
+.navbar.solid-toggle {
    background: rgba(0, 0, 0, .7)!important;
    transition: background-color 1s ease;
 }
