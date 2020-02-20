@@ -59,7 +59,8 @@ button:focus, a:focus, a.btn:focus {
    box-shadow: none;
    transition: all .6s ease;
 }
-button, a, a.btn {
+button, a, a.btn,
+.svg-inline--fa {
    transition: all .6s ease;
 }
 
@@ -117,6 +118,23 @@ button, a, a.btn {
    border-width: medium;
    padding: .8rem 1.5rem;
    font-size: 1.1rem;
+}
+
+/*-- Bouncing Down Arrow --*/
+.arrow {
+   position: absolute;
+   bottom: 0;
+   width: 100%;
+   animation: bounce 2s infinite;
+   -webkit-animation: bounce 2s infinite;
+}
+.down-arrow .svg-inline--fa {
+   color: white;
+   font-size: 2.2rem;
+   opacity: .3;
+}
+.down-arrow .svg-inline--fa:hover {
+   opacity: .8;
 }
 
 
