@@ -1,7 +1,7 @@
 /*========== NAVBAR TRANSPARENT TO SOLID ==========*/
 $(document).ready(function () { //when document(DOM) loads completely
-checkScroll(); //check if page is scrolled
-$(window).scroll(checkScroll); //get scroll position of window
+    checkScroll(); //check if page is scrolled
+    $(window).scroll(checkScroll); //get scroll position of window
 });
 
 function checkScroll() { //check if page is scrolled
@@ -19,6 +19,7 @@ $('.navbar-toggler').click(function () { //when navbar-toggler is clicked
     $("nav.navbar").toggleClass("solid-toggle"); //add the solid class to navbar
     }
 });
+
 
 /*========== CLOSE MOBILE MENU ON CLICK & SMOOTH SCROLL TO LINK a[href^="#"] ==========*/
 $(document).on('click', 'a[href^="#"]', function (event) {
